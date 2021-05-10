@@ -1905,7 +1905,7 @@ contract NFT is ERC721, Ownable {
 
     event NftListStatus(address indexed owner, uint nftID, bool isListed);
 
-    constructor() ERC721("AirNFTs", "AIRT") {
+    constructor() ERC721("Reves", "REVS") {
         _contractOwner = msg.sender;
     }
 
